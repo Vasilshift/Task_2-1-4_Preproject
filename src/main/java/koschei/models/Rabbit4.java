@@ -10,7 +10,7 @@ public class Rabbit4 {
     private Duck5 duck5;
 
     @Autowired
-    public Rabbit4(@Qualifier("duck5") Duck5 duck5) {
+    public Rabbit4(Duck5 duck5) {
         this.duck5 = duck5;
     }
 
